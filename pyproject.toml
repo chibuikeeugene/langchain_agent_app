@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "langchain-agent-app"
+version = "0.1.0"
+description = "An agentic application for engaging with a website of choice"
+authors = ["chibuikeeugene <chibuikeeugene@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.13"
+langchain-ollama = "^0.1.1"
+beautifulsoup4 = "^4.12.3"
+faiss-cpu = "^1.8.0.post1"
+langchainhub = "^0.1.21"
+loguru = "^0.7.2"
+ipykernel = "^6.29.5"
+pypdf = "^4.3.1"
+langserve = "^0.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
