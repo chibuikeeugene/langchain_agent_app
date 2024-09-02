@@ -22,6 +22,9 @@ fastapi = "^0.112.2"
 pydantic = "^2.8.2"
 sse-starlette = "^2.1.3"
 streamlit = "^1.38.0"
+qdrant-client = "^1.11.1"
+tqdm = "^4.66.5"
+langchain-qdrant = "^0.1.3"
 
 
 [build-system]
