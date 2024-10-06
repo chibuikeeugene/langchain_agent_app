@@ -20,7 +20,7 @@ from loguru import logger
 
 def document_retriever(directory:str):
     
-    """this function receives a file document, creates the vector embeddings and uploads to qdrant 
+    """this function receives a file document(s) from a directory, creates the vector embeddings and uploads to qdrant 
     and then instantiates a retriever object of our qdrant vectortore"""
 
     retriever_from_existing_doc = None

@@ -14,12 +14,12 @@ from document_retriever import document_retriever
 from langchain_core.prompts import ChatPromptTemplate
 
 
-'/Users/eugene/Personal_Projects/Real_ML_Project/langchain_agent_app/files/'
 
 def client(file_directory:str, chat_template ):
     # get retriever objects from document retriever
     retriever, retriever_from_existing_doc = document_retriever(
-        directory=file_directory )
+        directory=file_directory
+        )
 
     if retriever_from_existing_doc == None:
     #================= create the tools ======================#
